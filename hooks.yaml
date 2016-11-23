@@ -2,7 +2,7 @@
   name: Run `semistandard` on javascript files
   entry: semistandard
   language: node
-  files: \.(js|jsx|ts)$
+  files: \.(js|jsx)$
   args: []
   additional_dependencies: ['semistandard@8.0.0']
   minimum_pre_commit_version: 0.7.0
