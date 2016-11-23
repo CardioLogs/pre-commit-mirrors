@@ -1,0 +1,16 @@
+- id: semistandard
+  name: Run `semistandard` on javascript files
+  entry: semistandard
+  language: node
+  files: \.(js|jsx|ts)$
+  args: []
+  additional_dependencies: ['semistandard@8.0.0']
+  minimum_pre_commit_version: 0.7.0
+- id: tslint
+  name: Run `tslint` on typescript files
+  entry: tslint
+  language: node
+  files: \.ts$
+  args: []
+  additional_dependencies: ['tslint@4.0.1']
+
