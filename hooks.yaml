@@ -12,5 +12,5 @@
   language: node
   files: \.ts$
   args: []
-  additional_dependencies: ['tslint@4.0.1']
+  additional_dependencies: ['typescript@2.0.10', 'tslint@4.0.1']
 
