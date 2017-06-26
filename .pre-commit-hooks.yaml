@@ -4,7 +4,7 @@
   language: node
   files: \.(js|jsx)$
   args: []
-  additional_dependencies: ['semistandard@8.0.0']
+  additional_dependencies: ['semistandard@11.0.0']
   minimum_pre_commit_version: 0.7.0
 - id: tslint
   name: Run `tslint` on typescript files
@@ -12,5 +12,5 @@
   language: node
   files: \.ts$
   args: []
-  additional_dependencies: ['typescript@2.0.10', 'tslint@4.0.1']
+  additional_dependencies: ['typescript@2.1.1', 'tslint@5.4.3']
 
